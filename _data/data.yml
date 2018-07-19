@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    # Site Settings
+    title: Jenn Edge
+    url: 'https://JennEdge.com'
+    
+    # Profile information
+    name: Jenn Edge
+    tagline: Software Engineering Leadership
+    pic: profile.jpg  #200x200 picture inside /assets/images/ folder
+    
+    # Sidebar links
+    #email: 
+    #phone: 
+    #website: #do not add http://
+    linkedin: engineer-edge
+    twitter: '@engineer_edge'
+    github: j-Edge
+    papercall: engineer-edge
+        
+    #interests:
+    #    - interest:
+    #      item: Climbing
+    #      link:
+
+
+career-profile: 
+    title: Biography
+    text: 'Jenn is an Assistant Director of AASHTOWare Development at [Info Tech, Inc.](https://www.infotechfl.com/) in Gainesville, Florida with 12 years of professional software development experience. A perpetual learner, she enjoys the interconnections of technology and psychology.'
+
+
+#studies: 
+#    - education:
+#      degree: B.S. Computer Engineering, Software Emphasis
+#      university: University of Florida
+
+
+publications:
+    title: Public Speaking
+    intro: Jenn was a featured speaker at Gainesville BarCamp 2018. She has spoken at various training and outreach events, including representing her team at university career fairs.
+    
+    publications:
+      - paper:
+        title: PACE Center for Girls
+        time: July 2018
+        authors: Microsoft Word Workshop
+        conference: Volunteered at a local girls' nonprofit to teach Microsoft Word for two 50-minute class periods, including giving a career-day presentation on software development.
+      - paper:
+        title: Intern Training
+        time: Summer 2018
+        authors: Goal-Setting Workshop
+        conference: Internal company 1-hour workshop to introduce interns to our division, speak about continuous self-improvement, and create goals for their internships.
+      - paper:
+        title: Gainesville BarCamp 2018
+        site: http://gainesvillebarcamp.com/sessions.html
+        img: barcamp2018.jpg
+        time: April 2018
+        authors: Continuous Self-Improvement
+        conference: "**Abstract:** Do you want to make a lasting change, such as learning a new technology or becoming a better leader? Come learn how to develop a better you and nudge your dreams into reality. We'll explore ways to achieve goals and form habits."
+      - paper:
+        title: Grace Hopper Hackathon for Humanity 2017
+        time: October 2017
+        img: ghc2017.jpg
+        authors: 
+        conference: Presented results for our Cloudera Team to all attendees at the end of a one-day hackathon.
+      - paper:
+        title: coderGirls 2017
+        time: May 2017
+        img: codergirls2017.jpg
+        authors: 
+        conference: Spoke with local high school coding club (coderGirls) about careers in software development.
+      - paper:
+        title: Developer Training
+        time: 2017
+        authors: 
+        conference: Led many workshop and seminar-style training sessions for developer onboarding covering subjects varying from team culture to project architecture and how-to workshops.
+
+
+#experiences:
+#    title: Experience
+    
+    
+#    experiences:
+#        - role: Lead Developer
+#          time: 2015 - Present
+#          company: Startup Hubs, San Francisco
+#          details: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+#projects:
+#    title: Projects
+#    intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor"
+#    projects:
+#      - project:
+#        title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#skills:
+#    title: Skills &amp; Proficiency
+#    skills:
+#        - skill:
+#          name: Python & Django
+#          level: 98%
+
+footer: 
+    text: 'Design by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>'
