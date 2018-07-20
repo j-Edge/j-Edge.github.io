@@ -9,10 +9,12 @@
   </div><!--//intro-->
   {% endif %}
 
-  <div class="publication-images">
+  <div class="publication-images row">
       {% for publication in site.data.data.publications.publications %}
   {% if publication.img %}
+  <div class="col-md-4 publication-wrapper">
       <figure><img class="publication-image" src="{{site.baseurl}}/assets/images/{{ publication.img }}" alt="Jenn speaking at {{publication.title}}"/><figcaption>{{publication.title}}</figcaption></figure>
+  </div>
   {% endif %}
   {% endfor %}
   </div>

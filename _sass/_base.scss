@@ -255,15 +255,15 @@ p {
     }
 
     .publication-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 10px;
-        justify-items: center;
-        align-items: center;
-        margin-bottom: 30px;
+        margin: auto auto 20px auto;
+
+        .publication-wrapper {
+            padding: 0px 3px;
+            margin-bottom: 7px;
+        }
 
         .publication-image {
-            max-height: 150px;
+            width: 100%;
             border: 0px solid #fff;
             border-radius: 3%;
             box-shadow: 0px 0px 2px rgba(0,0,0,.5);
@@ -273,6 +273,7 @@ p {
             font-size: .7em;
             color: $theme-color;
             text-align: center;
+            width: 100%;
         }
     }
 }
