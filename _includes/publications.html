@@ -22,7 +22,9 @@
   {% for publication in site.data.data.publications.publications %}
     <div class="item">
       <div class="upper-row">
-        <div class="publication-title">{{ publication.title }}</div>
+        <div class="publication-title">
+          {% if publication.site %}<a href="{{publication.site}}">{% endif %}{{ publication.title }}{% if publication.site %}</a>{% endif %}
+        </div>
         <div class="time">{{ publication.time }}</div>
       </div>
       <div class="publication-authors">{{ publication.authors }}</div>
@@ -30,6 +32,6 @@
       
     </div><!--//item-->
   {% endfor %}
-
 </section><!--//section-->
 {% endif %}
+
