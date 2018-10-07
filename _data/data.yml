@@ -9,7 +9,7 @@ sidebar:
     
     # Profile information
     name: Jenn Edge
-    tagline: Software Engineering Leadership
+    tagline: Technical Leadership
     pic: profile.jpg  #200x200 picture inside /assets/images/ folder
     
     # Sidebar links
@@ -29,13 +29,13 @@ sidebar:
 
 career-profile: 
     title: Biography
-    text: 'Jenn Edge is an Assistant Director of AASHTOWare Development at [Info Tech, Inc.](https://www.infotechfl.com/) in Gainesville, Florida with 12 years of professional software development experience. A perpetual learner, she enjoys the interconnections of technology and psychology.<br/>
+    text: 'Jenn Edge is an Assistant Director of Development at [Info Tech, Inc.](https://www.infotechfl.com/) in Gainesville, Florida with 12 years of professional software development experience. A perpetual learner, she enjoys the interconnections of technology and psychology.<br/>
 <br/>
 Jenn has been interested in programming since a teacher first introduced her to LOGO Writer in elementary school. As a teen, she learned how to build web pages hosted on GeoCities. She attended the University of Florida where she obtained a Bachelor of Science in Computer Engineering, learning about the layers of computational abstractions: from circuits and microprocessors to object-oriented programming and design patterns.<br/>
 <br/>
-In 2006, she joined [Info Tech, Inc.](https://www.infotechfl.com/) as a Programmer, where she worked to develop an enterprise web application. In the last 12 years, she has gained technical expertise in development and refined her leadership ability, rising through the ranks from Programmer through Lead Developer to Assistant Director.<br/>
+In 2006, she joined [Info Tech, Inc.](https://www.infotechfl.com/) as a programmer on a development team for an enterprise web application. In the last 12 years, she has gained technical expertise and refined her leadership ability, rising through the ranks from Programmer through Lead Developer to Assistant Director. She was instrumental in designing and advocating for several innovative solutions that improved efficiency for the web development and implementation teams.<br/>
 <br/>
-As her role has shifted, Jenn has become more involved in corporate training as well as community outreach, including speaking about software development at programs for high school students, representing her team at career fairs, and speaking at local events.'
+Jenn is involved in community outreach including speaking at conferences, mentoring other women in tech, and speaking with students about careers in software development.'
 
 
 #studies: 
@@ -46,12 +46,17 @@ As her role has shifted, Jenn has become more involved in corporate training as 
 
 publications:
     title: Public Speaking
-    intro: Jenn was a featured speaker at Gainesville BarCamp 2018. She has spoken at various training and outreach events, including representing her team at university career fairs.
+    intro: "Jenn was a speed mentor at the 2018 Grace Hopper Celebration, featured speaker at Gainesville BarCamp 2018, and speaker at the Moms Can: Code Fall 2018 Virtual Summit."
     
     publications:
       - paper:
+        title: "Speed Mentoring at the 2018 Grace Hopper Celebration"
+        time: September 26, 2018
+        authors: "Mentoring Topic: Product Design and Management"
+        conference: "Mentored attendees one-on-one in 6-minute sessions for 2.5 hours based on their interests and questions. Most conversations were related to the transition from individual contributor to manager and how to effectively lead a team."
+      - paper:
         title: "Moms Can: CODE Fall 2018 Virtual Summit"
-        site: http://www.crowdcast.io/e/momscancodesummit2
+        site: http://summit.momscancode.com/speakers.html#Jenn
         time: September 10-14, 2018
         authors: Continuous Self-Improvement
         conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to learn how to code, keep up with changes in technology, and step into new roles in leadership. Join me to look at the parallels between processes you may be learning or already familiar with in development and approaches to self-improvement proven to be successful in behavioral psychology. Attendees will learn how to improve goal focus with a sustainable pace and automate self-improvement using habits and environmental nudges."
