@@ -2,9 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: $text-color-secondary;
-    background: $smoky-white;
     font-size: 14px;
-    padding: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -30,11 +28,14 @@ p {
 }
 
 .wrapper {
-    background:$theme-color;
+    background: #fff;
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
-    @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
+}
+
+.default .wrapper {
+    background:$theme-color;
 }
 
 .sidebar-wrapper {
@@ -299,9 +300,6 @@ p {
     }
 }
 
-
-
-
 .footer {
     padding-top: 30px;
     .copyright {
@@ -313,5 +311,45 @@ p {
     .fa-heart {
         color: $heart;
     }
+}
 
+.default nav {
+    width: calc(100% - 280px);
+}
+
+nav {
+    width: 100%;
+    line-height: .5;
+    background-color: darken($theme-color, 15%);
+
+
+    .nav-tabs > li, .nav-pills > li {
+        float:none;
+        display:inline-block;
+        padding: 0;
+        a {
+            color: #fff;
+            border-radius: 0;
+        }
+    }
+
+    .nav-pills {
+        text-align: center;
+        a:hover {
+            background-color: $theme-color;
+        }
+    }
+
+        /*
+
+$theme-color: #A15277;
+$text-color: #3F4650;
+$text-color-secondary: #545E6C;
+        */
+}
+
+.form-wrapper {
+    padding-top: 45px;
+    text-align: center;
+    width: 100%;
 }
