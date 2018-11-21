@@ -1,6 +1,7 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output. 
 #
+speaker-img: ewits.jpg
 
 sidebar:
     # Site Settings
@@ -9,7 +10,7 @@ sidebar:
     
     # Profile information
     name: Jenn Edge
-    tagline: Technical Leadership
+    tagline: Technical Leadership<BR>&<br>Innovation
     pic: profile.jpg  #200x200 picture inside /assets/images/ folder
     
     # Sidebar links
@@ -29,24 +30,30 @@ sidebar:
 
 career-profile: 
     title: Biography
-    text: 'Jenn Edge is an Assistant Director of Development at [Info Tech, Inc.](https://www.infotechfl.com/) in Gainesville, Florida with 12 years of professional software development experience. A perpetual learner, she enjoys the interconnections of technology and psychology.<br/>
+    text: 'Jenn Edge is a proven innovator and technical leader with over a dozen years of experience in the software industry. She currently manages web and mobile development teams in as Assistant Director of Development at [Info Tech](https://www.infotechfl.com/) in Gainesville, Florida. A perpetual learner, she enjoys designing efficient solutions and exploring interconnections of technology and psychology.<br/>
 <br/>
 Jenn has been interested in programming since a teacher first introduced her to LOGO Writer in elementary school. As a teen, she learned how to build web pages hosted on GeoCities. She attended the University of Florida where she obtained a Bachelor of Science in Computer Engineering, learning about the layers of computational abstractions: from circuits and microprocessors to object-oriented programming and design patterns.<br/>
 <br/>
-In 2006, she joined [Info Tech, Inc.](https://www.infotechfl.com/) as a programmer on a development team for an enterprise web application. In the last 12 years, she has gained technical expertise and refined her leadership ability, rising through the ranks from Programmer through Lead Developer to Assistant Director. She was instrumental in designing and advocating for several innovative solutions that improved efficiency for the web development and implementation teams.<br/>
+In 2006, she joined [Info Tech, Inc.](https://www.infotechfl.com/) as a programmer on a development team for an enterprise web application. In the last 12 years, she has gained technical expertise and refined her leadership ability, rising through the ranks from Programmer through Lead Developer to Assistant Director. She was instrumental in designing and advocating for innovative solutions that improved efficiency for the web development and implementation teams.<br/>
 <br/>
 Jenn is involved in community outreach including speaking at conferences, mentoring other women in tech, and speaking with students about careers in software development.'
 
 publications:
     title: Public Speaking
-    intro: "Jenn was a speed mentor at the 2018 Grace Hopper Celebration, featured speaker at Gainesville BarCamp 2018, and speaker at the Moms Can: Code Fall 2018 Virtual Summit."
+    intro: "Jenn was a speaker at the Moms Can: Code Fall 2018 Virtual Summit, featured speaker at Gainesville BarCamp 2018, and speed mentor at the 2018 Grace Hopper Celebration."
     
     publications:
+      - paper:
+        title: "Empowering Women in Technology Startups (EWITS)"
+        site: https://twitter.com/UFCollaboratory/status/1050757465187454976
+        time: October 11, 2018
+        authors: "Sharing My GHC Experience"
+        conference: "Shared my Grace Hopper Celebration conference experience with approximately 50 EWITS participants."
       - paper:
         title: "Speed Mentoring at the 2018 Grace Hopper Celebration"
         time: September 26, 2018
         authors: "Mentoring Topic: Product Design and Management"
-        conference: "Mentored attendees one-on-one in 6-minute sessions for 2.5 hours based on their interests and questions. Most conversations were related to the transition from individual contributor to manager and how to effectively lead a team."
+        conference: "Mentored attendees one-on-one in 6-minute sessions for 2.5 hours based on their interests and questions. Most conversations related to the transition from individual contributor to manager and how to effectively lead a team."
       - paper:
         title: "Moms Can: CODE Fall 2018 Virtual Summit"
         site: http://summit.momscancode.com/speakers.html#Jenn

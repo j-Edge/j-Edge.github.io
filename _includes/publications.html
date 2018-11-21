@@ -2,22 +2,10 @@
 <section class="section publications-section">
 
   <h2 class="section-title"><i class="fa fa-bullhorn"></i>{{ site.data.data.publications.title }}</h2>
-
+  <figure class="speaker-image-wrapper"><img class="speaker-image" src="{{site.baseurl}}/assets/images/{{site.data.data.speaker-img}}" alt="Jenn speaking"/></figure>
   {% if site.data.data.publications.intro %}
-  <div class="intro">
-      <p>{{ site.data.data.publications.intro }}</p>
-  </div><!--//intro-->
+  <div class="intro"><p>{{ site.data.data.publications.intro }}</p></div>
   {% endif %}
-
-  <div class="publication-images row">
-      {% for publication in site.data.data.publications.publications %}
-  {% if publication.img %}
-  <div class="col-md-4 publication-wrapper">
-      <figure><img class="publication-image" src="{{site.baseurl}}/assets/images/{{ publication.img }}" alt="Jenn speaking at {{publication.title}}"/><figcaption>{{publication.title}}</figcaption></figure>
-  </div>
-  {% endif %}
-  {% endfor %}
-  </div>
 
   {% for publication in site.data.data.publications.publications %}
     <div class="item">
@@ -32,6 +20,17 @@
       
     </div><!--//item-->
   {% endfor %}
+  
+  <div class="publication-images row">
+    {% for publication in site.data.data.publications.publications %}
+      {% if publication.img %}
+        <div class="col-md-4 publication-wrapper">
+          <figure><img class="publication-image" src="{{site.baseurl}}/assets/images/{{ publication.img }}" alt="Jenn speaking at {{publication.title}}"/><figcaption>{{publication.title}}</figcaption></figure>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
 </section><!--//section-->
 {% endif %}
 
