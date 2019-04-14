@@ -56,7 +56,7 @@ publications:
         authors: Agile Self-Improvement
         conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals?<br>We’ll discuss the commonality between growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design.<br><a href='https:////github.com//onetug//OrlandoCodecamp2019Speakers//raw//master//JennEdge//AgileSelfImprovement.pdf'>Session Slides</a>"
       - paper:
-        title: "Empowering Women in Technology Startups (EWITS)"
+        title: "Empowering Women in Technology Startups"
         site: https://twitter.com/UFCollaboratory/status/1050757465187454976
         time: October 11, 2018
         authors: "Sharing My GHC Experience"
