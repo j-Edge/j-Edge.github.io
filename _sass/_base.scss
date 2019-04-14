@@ -1,8 +1,7 @@
 /* ======= Base ======= */
 body {
-    font-family: 'Roboto', sans-serif;
     color: $text-color-secondary;
-    font-size: 14px;
+    font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -58,14 +57,14 @@ p {
         color: #fff;
     }
     .name {
-        font-size: 32px;
+        font-size: 2em;
         font-weight: 900;
         margin-top: 0;
         margin-bottom: 10px;
     }
     .tagline {
         color: rgba(256, 256, 256, 0.6);
-        font-size: 16px;
+        font-size: 1.2em;
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 0;
@@ -85,7 +84,7 @@ p {
     .contact-list {
         .fa {
             margin-right: 5px;
-            font-size: 18px;
+            font-size: 1.2em;
             vertical-align: middle;
         }
         li {
@@ -96,7 +95,7 @@ p {
         }
         .email {
             .fa {
-                font-size: 14px;
+                font-size: 1em;
             }
         }
     }
@@ -105,13 +104,13 @@ p {
     }
     .container-block-title {
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 1.2em;
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 15px;
     }
     .degree {
-        font-size: 14px;
+        font-size: 1em;
         margin-top: 0;
         margin-bottom: 5px;
     }
@@ -129,7 +128,7 @@ p {
             margin-top: 0;
         }
         .time {
-            color: rgba(256, 256, 256, 0.6);
+            color: rgba(256, 256, 256, 0.8);
             font-weight: 500;
             margin-bottom: 0px;
         }
@@ -166,23 +165,23 @@ p {
     padding: 60px 340px 0px 60px;
     .section-title {
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 2em;
         font-weight: 500;
         color: darken($theme-color, 15%);
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
         .fa {
-            width: 30px;
-            height: 30px;
+            width: 1.3em;
+            height: 1.3em;
+            font-size: 1em;
             margin-right: 8px;
+            padding-top: 0.2em;
             display: inline-block;
             color: #fff;
             @include border-radius(50%);
             background: darken($theme-color, 15%);
             text-align: center;
-            padding-top: 8px;
-            font-size: 16px;
             position: relative;
             top: -2px;
         }
@@ -204,7 +203,7 @@ p {
     }
     .job-title, .degree {
         color: $text-color;
-        font-size: 16px;
+        font-size: 1.2em;
         margin-top: 0;
         margin-bottom: 0;
         font-weight: 500;
@@ -221,7 +220,7 @@ p {
     }
 
     .project-title {
-        font-size: 16px;
+        font-size: 1.2em;
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 5px;
@@ -236,7 +235,7 @@ p {
     }
 
     .publication-title {
-        font-size: 16px;
+        font-size: 1.2em;
         font-weight: 400;
         color: $text-color;
         margin-bottom: 1px;
@@ -299,7 +298,7 @@ p {
         overflow: hidden;
     }
     .level-title {
-        font-size: 14px;
+        font-size: 1em;
         margin-top: 0;
         margin-bottom: 12px;
     }

@@ -40,9 +40,21 @@ Jenn is involved in community outreach including speaking at conferences, mentor
 
 publications:
     title: Public Speaking
-    intro: "Jenn was a speaker at the Moms Can: Code Fall 2018 Virtual Summit, featured speaker at Gainesville BarCamp 2018, and speed mentor at the 2018 Grace Hopper Celebration."
+    intro: "Jenn was a speaker at 2019 Orlando CodeCamp, Moms Can: Code Fall 2018 Virtual Summit, featured speaker at Gainesville BarCamp 2018, and speed mentor at the 2018 Grace Hopper Celebration."
     
     publications:
+      - paper:
+        title: "2019 BarCampGNV"
+        site: https://twitter.com/BarCampGNV/status/1114562314114670592
+        time: April 6, 2019
+        authors: "Women in Tech"
+        conference: "Co-presented session discussing statistics of women in technology and tech leadership. Announced our new organization, We Advance Tech Together (WATT), an initiative to support women in tech."
+      - paper:
+        title: "2019 Orlando CodeCamp"
+        site: https://www.orlandocodecamp.com/Sessions/Details/9
+        time: March 30, 2019
+        authors: Agile Self-Improvement
+        conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals?<br>We’ll discuss the commonality between growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design.<br><a href='https:////github.com//onetug//OrlandoCodecamp2019Speakers//raw//master//JennEdge//AgileSelfImprovement.pdf'>Session Slides</a>"
       - paper:
         title: "Empowering Women in Technology Startups (EWITS)"
         site: https://twitter.com/UFCollaboratory/status/1050757465187454976
@@ -50,9 +62,9 @@ publications:
         authors: "Sharing My GHC Experience"
         conference: "Shared my Grace Hopper Celebration conference experience with approximately 50 EWITS participants."
       - paper:
-        title: "Speed Mentoring at the 2018 Grace Hopper Celebration"
+        title: "2018 Grace Hopper Celebration"
         time: September 26, 2018
-        authors: "Mentoring Topic: Product Design and Management"
+        authors: "Speed Mentoring on Product Design and Management"
         conference: "Mentored attendees one-on-one in 6-minute sessions for 2.5 hours based on their interests and questions. Most conversations related to the transition from individual contributor to manager and how to effectively lead a team."
       - paper:
         title: "Moms Can: CODE Fall 2018 Virtual Summit"
@@ -67,7 +79,7 @@ publications:
         conference: Volunteered at a local girls' nonprofit to teach Microsoft Word for two 50-minute class periods, including giving a career-day presentation on software development.
       - paper:
         title: Intern Training
-        time: Summer 2018
+        time: Summer 2018 and Spring 2019
         authors: Goal-Setting Workshop
         conference: Internal company 1-hour workshop to introduce interns to our division, speak about continuous self-improvement, and create goals for their internships.
       - paper:
