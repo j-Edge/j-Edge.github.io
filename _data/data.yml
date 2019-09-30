@@ -30,19 +30,31 @@ sidebar:
 
 career-profile: 
     title: Biography
-    text: 'Jenn Edge is a proven innovator and technical leader with over 12 years of experience in agile enterprise software development. As an Assistant Director of Development at [Info Tech](https://www.infotechfl.com/) in Gainesville, Florida, she manages teams building applications used in state highway and transportation agencies across the United States. She works across teams to continuously improve processes and quality. She coaches team leads based on her experience as a developer on a large web application, including 4 years as a lead developer. Jenn is an AWS Certified Cloud Practitioner and holds a BS in Computer Engineering from the University of Florida.<br/>
+    text: 'Jenn Edge is a proven innovator and technical leader with over 13 years of experience in agile enterprise software development. As an Assistant Director of Development at [Infotech](https://www.infotechinc.com/) in Gainesville, Florida, she manages teams building applications used in state highway and transportation agencies across the United States. She works across teams to guide technical product vision and drive continuous process and quality improvements. She coaches team leads based on her experience as a developer on a large web application, including 4 years as a lead developer. Jenn is an AWS Certified Cloud Practitioner and holds a BS in Computer Engineering from the University of Florida.<br/>
 <br/>
-Jenn is involved in community outreach including speaking at conferences, mentoring other women in tech, and speaking with students about careers in software development. In 2019, she co-founded [We Advance Tech Together (WATT)](https://twitter.com/watt_zone) with Usha Suryadevara, Elise Carmichael, Priya Rudradas, and Sue Rocher. WATT is an initiative to support women in tech through community-building and mentoring.<br/>
+Jenn is involved in community outreach including speaking at conferences, mentoring other women in tech, and speaking with students about careers in software development. In 2019, she co-founded [We Advance Tech Together (WATT)](https://twitter.com/watt_zone) with Usha Suryadevara, Elise Carmichael, Priya Rudradas, and Sue Rocher. WATT is a 501(c)(3) non-profit created to support women in tech through community-building and mentoring.<br/>
 <br/>
 Jenn has been interested in programming since a teacher first introduced her to LOGO Writer in elementary school. As a teen, she learned how to build web pages hosted on GeoCities. She attended the University of Florida where she obtained a Bachelor of Science in Computer Engineering, learning about the layers of computational abstractions: from circuits and microprocessors to object-oriented programming and design patterns.<br/>
 <br/>
-In 2006, she joined [Info Tech, Inc.](https://www.infotechfl.com/) as a programmer on a development team for an enterprise web application. In the last 13 years, she has gained technical expertise and refined her leadership ability, rising through the ranks from Programmer through Lead Developer to Assistant Director. She was instrumental in designing and advocating for innovative solutions that improved efficiency for the web development and implementation teams.'
+In 2006, she joined [Infotech](https://www.infotechinc.com/) as a programmer on a development team for an enterprise web application. In the last 13 years, she has gained technical expertise and refined her leadership ability, rising through the ranks from Programmer through Lead Developer to Assistant Director. She was instrumental in designing and advocating for innovative solutions that improved efficiency for the web development and implementation teams.'
 
 publications:
     title: Public Speaking
-    intro: "Jenn was a speaker at 2019 Orlando CodeCamp, Moms Can: Code Fall 2018 Virtual Summit, featured speaker at Gainesville BarCamp 2018, and speed mentor at the 2018 Grace Hopper Celebration."
+    intro: "Jenn has spoken at many local events and conferences including: 2019 Code on the Beach, 2019 Orlando CodeCamp, Moms Can: Code Fall 2018 Virtual Summit, featured speaker at Gainesville BarCamp 2018, and speed mentoring at the 2018 Grace Hopper Celebration."
     
     publications:
+      - paper:
+        title: "2019 ResBaz Gainesville"
+        site: https://resbaz.github.io/resbaz2019/gainesville/#schedule
+        time: September 12, 2019
+        authors: "Gainesville Coding Clubs"
+        conference: "Represented We Advance Tech Together (WATT) in a panel discussion on local coding groups with Amy Kendig (R-Ladies Gainesville), Ben Toh (R-gators), and Matthew Collins (UF Carpentries Club). Topics included community building, teaching/mentorship, and the future of software development in other disciplines."
+      - paper:
+        title: "2019 Code on the Beach"
+        site: https://www.codeonthebeach.com/event/dont-stop-believing-the-journey-of-agile-self-improvement
+        time: July 27, 2019
+        authors: "Don't Stop Believing: The Journey of Agile Self-Improvement"
+        conference: "**Abstract:** Development is a journey of failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals? We'll discuss growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design."
       - paper:
         title: "2019 BarCampGNV"
         site: https://twitter.com/BarCampGNV/status/1114562314114670592
@@ -108,15 +120,13 @@ publications:
         conference: Led many workshop and seminar-style training sessions for developer on-boarding covering subjects varying from team culture to project architecture and how-to workshops.
 
 
-#experiences:
-#    title: Experience
-    
-    
-#    experiences:
-#        - role: Lead Developer
-#          time: 2015 - Present
-#          company: Startup Hubs, San Francisco
-#          details: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+experiences:
+    title: Professional Experience
+    experiences:
+        - role: Assistant Director
+          time: April 2018 – Present
+          company: Infotech (Re-branded in September 2019) in Gainesville, FL
+          details: ['Manage web, mobile, and client/server development teams for contracted and company-owned products, delivered traditionally or as Software-as-a-Service, with team sizes from 2 to 25 developers.','Direct company-wide strategy as member of a 4-person cross-divisional technical advisory group. Guide departmental technical vision including long-term technical strategy for products and gain buy-in from internal and external stakeholders. Drive continuous team process improvements, with a focus on efficiency and quality.','Coach leads and developers to become more proactive and efficient and follow development best practices including test-driven development, pair programming, and collaborating with a team. Resource features for team knowledge sharing and growth opportunities. Steer hiring to build a diverse, high-performing team.','Research industry best practices and share internally and at conferences.','Member of teams that won the 2017 and 2018 Info Tech Hackathons.']
 
 #projects:
 #    title: Projects
