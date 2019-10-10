@@ -245,6 +245,15 @@ p {
         color: $text-grey;
         margin-bottom: 1px;
     }
+
+    .publication-slides {
+        line-height: 1.5;
+    }
+    .publication-conference {
+        p{
+          margin: 0;
+        }
+    }
     .publications-section {
         .intro {
             margin-bottom: 15px;

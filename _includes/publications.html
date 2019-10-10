@@ -16,8 +16,14 @@
         <div class="time">{{ publication.time }}</div>
       </div>
       <div class="publication-authors">{{ publication.authors }}</div>
-      <div class="publication-conference">{{ publication.conference | markdownify }}</div>
-      
+      {% if publication.embed %}
+      {{publication.embed}}
+      {% endif %}
+      <div class="publication-conference">{{ publication.conference | markdownify }}
+        {% if publication.slides %}
+        <div class="publication-slides"><a download href="{{publication.slides}}">Session Slides</a></div>
+        {% endif %}
+      </div>
     </div><!--//item-->
   {% endfor %}
   

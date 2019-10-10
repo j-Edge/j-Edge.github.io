@@ -55,6 +55,8 @@ publications:
         time: July 27, 2019
         authors: "Don't Stop Believing: The Journey of Agile Self-Improvement"
         conference: "**Abstract:** Development is a journey of failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals? We'll discuss growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design."
+        embed: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_jaaYylmfGQ?autoplay=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        slides: ./slides/CotB2019-AgileSelfImprovement.pdf
       - paper:
         title: "2019 BarCampGNV"
         site: https://twitter.com/BarCampGNV/status/1114562314114670592
@@ -66,7 +68,8 @@ publications:
         site: https://www.orlandocodecamp.com/Sessions/Details/9
         time: March 30, 2019
         authors: Agile Self-Improvement
-        conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals?<br>We’ll discuss the commonality between growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design.<br><a href='https:////github.com//onetug//OrlandoCodecamp2019Speakers//raw//master//JennEdge//AgileSelfImprovement.pdf'>Session Slides</a>"
+        conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals?<br>We’ll discuss the commonality between growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design."
+        slides: https://github.com/onetug/OrlandoCodecamp2019Speakers/raw/master/JennEdge/AgileSelfImprovement.pdf
       - paper:
         title: "Empowering Women in Technology Startups"
         site: https://twitter.com/UFCollaboratory/status/1050757465187454976
