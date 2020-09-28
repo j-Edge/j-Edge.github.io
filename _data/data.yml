@@ -40,9 +40,21 @@ Jenn is also a member of the [.NET Foundation](https://www.dotnetfoundation.org/
   
 publications:
     title: Public Speaking
-    intro: "Jenn has spoken at many local events and conferences including: 2019 Code on the Beach, 2019 Orlando CodeCamp, Moms Can: Code Fall 2018 Virtual Summit, featured speaker at Gainesville BarCamp 2018, and speed mentoring at the 2018 Grace Hopper Celebration."
+    intro: "Jenn has spoken at local events to international conferences including: 2020 Virtual Grace Hopper Celebration, 2019 Code on the Beach, 2019 Orlando CodeCamp, Moms Can: Code Fall 2018 Virtual Summit, featured speaker at Gainesville BarCamp 2018, and speed mentoring at the 2018 Grace Hopper Celebration."
     
     publications:
+
+      - paper:
+        title: "2020 DevPulseCon"
+        site: https://www.devpulsecon.org/agenda-2020
+        time: October 8, 2020
+        authors: "Panel: Being the Solo Income Earner"
+      - paper:
+        title: "2020 Virtual Grace Hopper Celebration"
+        site: https://ghc.anitab.org/
+        time: September 29, 2020
+        authors: "Sole Income Earner Panel"
+        conference: "“Breadwinner.” “Bringing home the bacon.” “Meal-ticket.” Being the sole income earner for a family is a demanding, stressful, and often isolating role. Come hear from a diverse group of women about their experiences and how you can balance the demands in life."
       - paper:
         title: "2019 ResBaz Gainesville"
         site: https://resbaz.github.io/resbaz2019/gainesville/#schedule
