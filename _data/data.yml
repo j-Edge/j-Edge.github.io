@@ -10,7 +10,7 @@ sidebar:
     
     # Profile information
     name: Jenn Edge
-    tagline: Technical Leadership<BR>&<br>Innovation
+    tagline: Engineering Leadership
     pic: profile.jpg  #200x200 picture inside /assets/images/ folder
     
     # Sidebar links
@@ -20,7 +20,8 @@ sidebar:
     linkedin: engineer-edge
     twitter: '@engineer_edge'
     github: j-Edge
-    papercall: engineer-edge
+    resume: './files/Resume.pdf'
+    #papercall: engineer-edge
         
     #interests:
     #    - interest:
@@ -37,7 +38,6 @@ In 2019, Usha Suryadevara, Elise Carmichael, Priya Rudradas, Sue Rocher, and Jen
 <br/>
 <br/>
 Jenn is also a member of the [.NET Foundation](https://www.dotnetfoundation.org/). She contributed code to [improve the performance](https://goo.gl/EibZwc) of Entity Framework 6.2."
-  
 publications:
     title: Public Speaking
     intro: "Jenn has spoken at local events to international conferences including: 2020 Virtual Grace Hopper Celebration, 2019 Code on the Beach, 2019 Orlando CodeCamp, Moms Can: Code Fall 2018 Virtual Summit, featured speaker at Gainesville BarCamp 2018, and speed mentoring at the 2018 Grace Hopper Celebration."
