@@ -38,30 +38,30 @@ In 2019, Usha Suryadevara, Elise Carmichael, Priya Rudradas, Sue Rocher, and Jen
 <br/>
 Jenn is also a member of the [.NET Foundation](https://www.dotnetfoundation.org/). She contributed code to [improve the performance](https://goo.gl/EibZwc) of Entity Framework 6.2."
   
-publications:
+speaking:
     title: Public Speaking
     intro: "Jenn has spoken at local events to international conferences including: 2020 Virtual Grace Hopper Celebration, 2019 Code on the Beach, 2019 Orlando CodeCamp, Moms Can: Code Fall 2018 Virtual Summit, featured speaker at Gainesville BarCamp 2018, and speed mentoring at the 2018 Grace Hopper Celebration."
     
-    publications:
+    conferences:
 
-      - paper:
+      - talk:
         title: "2020 DevPulseCon"
         site: https://www.devpulsecon.org/agenda-2020
         time: October 8, 2020
         authors: "Panel: Being the Solo Income Earner"
-      - paper:
+      - talk:
         title: "2020 Virtual Grace Hopper Celebration"
         site: https://ghc.anitab.org/
         time: September 29, 2020
         authors: "Sole Income Earner Panel"
         conference: "“Breadwinner.” “Bringing home the bacon.” “Meal-ticket.” Being the sole income earner for a family is a demanding, stressful, and often isolating role. Come hear from a diverse group of women about their experiences and how you can balance the demands in life."
-      - paper:
+      - talk:
         title: "2019 ResBaz Gainesville"
         site: https://resbaz.github.io/resbaz2019/gainesville/#schedule
         time: September 12, 2019
         authors: "Panel Discussion: Gainesville Coding Groups"
         conference: "Represented We Advance Tech Together (WATT) in a panel discussion on local coding groups with Amy Kendig (R-Ladies Gainesville), Ben Toh (R-gators), and Matthew Collins (UF Carpentries Club). Topics included community building, teaching/mentorship, and the future of software development in other disciplines."
-      - paper:
+      - talk:
         title: "2019 Code on the Beach"
         site: https://www.codeonthebeach.com/event/dont-stop-believing-the-journey-of-agile-self-improvement
         time: July 27, 2019
@@ -69,66 +69,66 @@ publications:
         conference: "**Abstract:** Development is a journey of failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals? We'll discuss growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design."
         embed: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_jaaYylmfGQ?autoplay=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         slides: ./slides/CotB2019-AgileSelfImprovement.pdf
-      - paper:
+      - talk:
         title: "2019 BarCampGNV"
         site: https://twitter.com/BarCampGNV/status/1114562314114670592
         time: April 6, 2019
         authors: "Women in Tech"
         conference: "Co-presented session discussing statistics of women in technology and tech leadership. Announced our new organization, We Advance Tech Together (WATT), an initiative to support women in tech."
-      - paper:
+      - talk:
         title: "2019 Orlando CodeCamp"
         site: https://www.orlandocodecamp.com/Sessions/Details/9
         time: March 30, 2019
         authors: Agile Self-Improvement
         conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals?<br>We’ll discuss the commonality between growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design."
         slides: https://github.com/onetug/OrlandoCodecamp2019Speakers/raw/master/JennEdge/AgileSelfImprovement.pdf
-      - paper:
+      - talk:
         title: "Empowering Women in Technology Startups"
         site: https://twitter.com/UFCollaboratory/status/1050757465187454976
         time: October 11, 2018
         authors: "Sharing My GHC Experience"
         conference: "Shared my Grace Hopper Celebration conference experience with approximately 50 EWITS participants."
-      - paper:
+      - talk:
         title: "2018 Grace Hopper Celebration"
         time: September 26, 2018
         authors: "Speed Mentoring on Product Design and Management"
         conference: "Mentored attendees one-on-one in 6-minute sessions for 2.5 hours based on their interests and questions. Most conversations related to the transition from individual contributor to manager and how to effectively lead a team."
-      - paper:
+      - talk:
         title: "Moms Can: CODE Fall 2018 Virtual Summit"
         site: http://summit.momscancode.com/speakers.html#Jenn
         time: September 10-14, 2018
         authors: Continuous Self-Improvement
         conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to learn how to code, keep up with changes in technology, and step into new roles in leadership. Join me to look at the parallels between processes you may be learning or already familiar with in development and approaches to self-improvement proven to be successful in behavioral psychology. Attendees will learn how to improve goal focus with a sustainable pace and automate self-improvement using habits and environmental nudges."
-      - paper:
+      - talk:
         title: PACE Center for Girls
         time: July 2018
         authors: Microsoft Word Workshop
         conference: Volunteered at a local girls' nonprofit to teach Microsoft Word for two 50-minute class periods, including giving a career-day presentation on software development.
-      - paper:
+      - talk:
         title: Intern Training
         time: Summer 2018 and Spring 2019
         authors: Goal-Setting Workshop
         conference: Internal company 1-hour workshop to introduce interns to our division, speak about continuous self-improvement, and create goals for their internships.
-      - paper:
+      - talk:
         title: Gainesville BarCamp 2018
         site: http://gainesvillebarcamp.com/sessions.html
         img: barcamp2018.jpg
         time: April 2018
         authors: Continuous Self-Improvement
         conference: "**Abstract:** Do you want to make a lasting change, such as learning a new technology or becoming a better leader? Come learn how to develop a better you and nudge your dreams into reality. We'll explore ways to achieve goals and form habits."
-      - paper:
+      - talk:
         title: Grace Hopper Hackathon for Humanity 2017
         time: October 2017
         img: ghc2017.jpg
         authors: 
         conference: Presented results for our Cloudera Team to all attendees at the end of a one-day hackathon.
-      - paper:
+      - talk:
         title: coderGirls 2017
         time: May 2017
         img: codergirls2017.jpg
         authors: 
         conference: Spoke with local high school coding club (coderGirls) about careers in software development.
-      - paper:
+      - talk:
         title: Developer Training
         time: 2017
         authors: 

@@ -1,5 +1,8 @@
 - title: "Home"
   href: "/"
 
-#- title: "Resume"
-#  href: "/resume"
+- title: "Resume"
+  href: "/resume"
+
+- title: "Speaking"
+  href: "/speaking"
