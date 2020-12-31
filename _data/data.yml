@@ -77,7 +77,7 @@ publications:
         conference: "Co-presented session discussing statistics of women in technology and tech leadership. Announced our new organization, We Advance Tech Together (WATT), an initiative to support women in tech."
       - paper:
         title: "2019 Orlando CodeCamp"
-        site: https://www.orlandocodecamp.com/Sessions/Details/9
+        site: https://www.orlandocodecamp.com/
         time: March 30, 2019
         authors: Agile Self-Improvement
         conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals?<br>We’ll discuss the commonality between growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design."
@@ -111,7 +111,7 @@ publications:
         conference: Internal company 1-hour workshop to introduce interns to our division, speak about continuous self-improvement, and create goals for their internships.
       - paper:
         title: Gainesville BarCamp 2018
-        site: http://gainesvillebarcamp.com/sessions.html
+        site: http://gainesvillebarcamp.com/
         img: barcamp2018.jpg
         time: April 2018
         authors: Continuous Self-Improvement
