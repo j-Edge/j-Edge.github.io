@@ -15,43 +15,9 @@
 
    </div><!--//profile-container-->
 
+    {% include nav.html %}
    <div class="contact-container container-block">
-       <ul class="list-unstyled contact-list">
 
-           {% if site.data.data.sidebar.phone %}
-           <li class="phone"><a href="tel:{{site.data.data.sidebar.phone}}"><i class="fa fa-phone"></i>{{site.data.data.sidebar.phone}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.website %}
-           <li class="website"><a href="http://{{site.data.data.sidebar.website}}" rel="noopener noreferrer" target="_blank"><i class="fa fa-globe"></i>{{site.data.data.sidebar.website}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.resume %}
-           <li class="resume"><a href="{{site.data.data.sidebar.resume}}" rel="noopener noreferrer" target="_blank"><i class="fa fa-file-pdf-o"></i>Résumé</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.linkedin %}
-           <li class="linkedin"><a href="https://linkedin.com/in/{{site.data.data.sidebar.linkedin}}" rel="noopener noreferrer" target="_blank"><i class="fa fa-linkedin"></i>{{site.data.data.sidebar.linkedin}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.twitter %}
-           <li class="twitter"><a href="https://twitter.com/{{site.data.data.sidebar.twitter}}" rel="noopener noreferrer" target="_blank"><i class="fa fa-twitter"></i>{{site.data.data.sidebar.twitter}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.papercall %}
-           <li class="papercall"><a href="https://www.papercall.io/speakers/{{site.data.data.sidebar.papercall}}" rel="noopener noreferrer" target="_blank"><i class="fa fa-paper-plane"></i>{{site.data.data.sidebar.papercall}}</a></li>
-           {% endif %}
-
-
-          {% if site.data.data.sidebar.email %}
-           <li class="email"><a href="mailto: {{site.data.data.sidebar.email}}"><i class="fa fa-envelope"></i>{{site.data.data.sidebar.email}}</a></li>
-           {% endif %}
-
-           {% if site.data.data.sidebar.github %}
-           <li class="github"><a href="http://github.com/{{site.data.data.sidebar.github}}" rel="noopener noreferrer" target="_blank"><i class="fa fa-github"></i>{{site.data.data.sidebar.github}}</a></li>
-           {% endif %}
-
-       </ul>
    </div><!--//contact-container-->
 
   {% if site.education_in_main == null or site.education_in_main == false %}

@@ -20,5 +20,23 @@
         </li>
       {% endif %}
     {% endfor %}
+    
+    {% if site.data.data.sidebar.linkedin %}
+    <li class="linkedin"><a href="https://linkedin.com/in/{{site.data.data.sidebar.linkedin}}" title="LinkedIn" rel="noopener noreferrer" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+    {% endif %}
+
+    {% if site.data.data.sidebar.twitter %}
+    <li class="twitter"><a href="https://twitter.com/{{site.data.data.sidebar.twitter}}" title="Twitter" rel="noopener noreferrer" target="_blank"><i class="fa fa-twitter"></i></a></li>
+    {% endif %}
+
+
+    {% if site.data.data.sidebar.github %}
+    <li class="github"><a href="http://github.com/{{site.data.data.sidebar.github}}" title="GitHub" rel="noopener noreferrer" target="_blank"><i class="fa fa-github"></i></a></li>
+    {% endif %}
+
+    {% if site.data.data.sidebar.resume %}
+    <li class="resume"><a href="{{site.data.data.sidebar.resume}}" title="Resume" rel="noopener noreferrer" target="_blank"><i class="fa fa-file-text"></i></a></li>
+    {% endif %}
+
   </ul>
 </nav> 

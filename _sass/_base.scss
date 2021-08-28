@@ -75,24 +75,16 @@ p {
 
     .profile-img {
         //used for profile image
-        max-width: 200px;
+        max-width: 300px;
         margin-bottom: 15px;
-        border: 0px solid #fff;
-        border-radius: 100%;
-        box-shadow: 0px 0px 45px rgba(0,0,0,.5);
     }
     .contact-list {
         .fa {
-            margin-right: 5px;
-            font-size: 1.2em;
+            font-size: 2em;
+            margin-right: 1rem;
             vertical-align: middle;
         }
-        li {
-            margin-bottom: 15px;
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
+        
         .email {
             .fa {
                 font-size: 1em;
@@ -162,11 +154,9 @@ p {
 
 .main-wrapper {
     background: #fff;
-    padding: 60px 340px 0px 60px;
+    padding: 45px 325px 0px 45px;
     .section-title {
-        text-transform: uppercase;
-        font-size: 2em;
-        font-weight: 500;
+        font-weight: 300;
         color: darken($theme-color, 15%);
         position: relative;
         margin-top: 0;
@@ -331,15 +321,14 @@ p {
     }
 }
 
-.default nav {
-    width: calc(100% - 280px);
-}
-
 nav {
     width: 100%;
     line-height: .5;
     background-color: darken($theme-color, 15%);
 
+    .fa {
+        font-size: 2em;
+    }
 
     .nav-tabs > li, .nav-pills > li {
         float:none;
