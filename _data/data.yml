@@ -20,7 +20,7 @@ sidebar:
     linkedin: engineer-edge
     twitter: '@engineer_edge'
     github: j-Edge
-    #resume: './files/Resume.pdf'
+    resume: './files/Resume.pdf'
     #papercall: engineer-edge
         
     #interests:
@@ -31,10 +31,10 @@ sidebar:
 
 career-profile: 
     title: Summary
-    text: "Jenn Edge is a proven technical leader with over 16 years of professional experience in software engineering after achieving her BS in Computer Engineering. She currently manages the [SyncSketch](https://syncsketch.com/) engineering team at [Unity](https://unity.com/). Jenn continues to drive [continuous improvement](https://www.infotechinc.com/blog/dont-stop-believing-the-journey-of-agile-self-improvement) for her teams. She is involved in community outreach including recruiting developers, speaking at conferences, and mentoring other women in tech.
+    text: "Jenn Edge is a proven technical leader with over 15 years of professional experience in software engineering after achieving her BS in Computer Engineering. She currently manages the [SyncSketch](https://syncsketch.com/) engineering team at [Unity](https://unity.com/). Jenn continues to drive [continuous improvement](https://www.infotechinc.com/blog/dont-stop-believing-the-journey-of-agile-self-improvement) for her teams.
 <br/>
 <br/>
-In 2019, Usha Suryadevara, Elise Carmichael, Priya Rudradas, Sue Rocher, and Jenn Edge co-founded [We Advance Tech Together (WATT)](https://twitter.com/watt_zone), a 501(c)(3) non-profit supporting women in tech through community-building and mentoring. Jenn currently serves on the board as Vice President.
+In 2019, Usha Suryadevara, Elise Carmichael, Priya Rudradas, Sue Rocher, and Jenn Edge co-founded [We Advance Tech Together (WATT)](https://twitter.com/watt_zone), a 501(c)(3) non-profit supporting women in tech through community-building and mentoring. Jenn served on the board as Vice President. She was involved in community outreach including recruiting developers, speaking at conferences, and mentoring other women in tech.
 <br/>
 <br/>
 Jenn is also a member of the [.NET Foundation](https://www.dotnetfoundation.org/). She contributed code to [improve the performance](https://goo.gl/EibZwc) of Entity Framework 6.2."
