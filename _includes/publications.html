@@ -19,6 +19,17 @@
       {% if publication.embed %}
       {{publication.embed}}
       {% endif %}
+      {% if publication.videostill %}
+      <div class="videostill-wrapper">
+        {% if publication.videolink %}
+        <div class="videolink-wrapper">
+        <a type="button" class="videolink" href="{{publication.videolink}}" target="_blank"><i class="fa fa-youtube-play"></i>&nbsp;Watch Video</i></a>
+        </div>
+        {% endif %}
+        <figure><img class="videostill-image" src="{{site.baseurl}}/assets/images/{{ publication.videostill }}" alt="Jenn speaking at {{publication.title}}"/></figure>
+      </div>
+      {% endif %}
+ 
       <div class="publication-conference">{{ publication.conference | markdownify }}
         {% if publication.slides %}
         <div class="publication-slides"><a download href="{{publication.slides}}">Session Slides</a></div>
