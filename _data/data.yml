@@ -18,9 +18,9 @@ sidebar:
     #phone: 
     #website: #do not add http://
     linkedin: engineer-edge
-    twitter: '@engineer_edge'
+    #twitter: '@engineer_edge'
     github: j-Edge
-    resume: './files/JennEdge-Resume.pdf'
+    #resume: './files/JennEdge-Resume.pdf'
     #papercall: engineer-edge
         
     #interests:
@@ -31,19 +31,22 @@ sidebar:
 
 career-profile: 
     title: Summary
-    text: "Jenn Edge is a proven technical leader with over 18 years of professional experience since achieving her BS in Computer Engineering. With over a decade of dedicated leadership, she is committed to driving [continuous improvement](https://www.infotechinc.com/blog/dont-stop-believing-the-journey-of-agile-self-improvement) within her teams. Jenn leverages systems-thinking analysis and embraces best practices to optimize team processes. Her forte lies in fostering effective cross-functional collaboration, building inclusive teams, and empowering the personal and professional growth of engineers and leaders alike.
+    text: "[Jenn Edge](https://linkedin.com/in/engineer-edge) is a proven technical leader with over 18 years of professional experience since achieving her BS in Computer Engineering. With over a decade of dedicated leadership, she is committed to driving [continuous improvement](https://www.infotechinc.com/blog/dont-stop-believing-the-journey-of-agile-self-improvement) within her teams. Jenn leverages systems-thinking analysis and embraces best practices to optimize team processes. Her forte lies in fostering effective cross-functional collaboration, building inclusive teams, and empowering the personal and professional growth of engineers and leaders alike.
 <br/>
 <br/>
-Jenn previously managed the [SyncSketch](https://syncsketch.com/) engineering team at [Unity Technologies](https://unity3d.com/), and directed the AASHTOWare engineering team at [Infotech](https://www.infotechinc.com/). She successfully scaled teams from startup to enterprise software standards, ensuring compliance with security, data protection, and accessibility requirements.
+Jenn currently manages the growing Claims Financials team at [GEICO](https://geico.com/careers), which is focused on modernization (monolith to Java microservices) and building &quot;touchless&quot; user experiences.
 <br/>
 <br/>
-In 2019, Usha Suryadevara, Elise Carmichael, Priya Rudradas, Sue Rocher, and Jenn Edge co-founded [We Advance Tech Together (WATT)](https://twitter.com/watt_zone), a 501(c)(3) non-profit supporting women in tech through community-building and mentoring. Jenn served on the board as Vice President and ran the organization's social media accounts, cultivating meet-up growth to over 100 members through social media outreach and in-person events.
+She previously managed the [SyncSketch](https://syncsketch.com/) engineering team at [Unity Technologies](https://unity3d.com/), and directed the AASHTOWare engineering team at [Infotech](https://www.infotechinc.com/). She successfully scaled teams from startup to enterprise software standards, ensuring compliance with security, data protection, and accessibility requirements.
 <br/>
 <br/>
 Jenn has spoken at local meetups to international conferences, including the 2020 Virtual Grace Hopper Celebration with 39,000+ global attendees. Jenn has also been involved in community outreach including recruiting developers, speaking at conferences, and mentoring other women in tech. 
 <br/>
 <br/>
 Jenn is also a member of the [.NET Foundation](https://www.dotnetfoundation.org/); she contributed open-source code to [improve the performance](https://goo.gl/EibZwc) of Entity Framework 6.2.
+<br/>
+<br/>
+In 2019, Usha Suryadevara, Elise Carmichael, Priya Rudradas, Sue Rocher, and Jenn Edge co-founded [We Advance Tech Together (WATT)](https://twitter.com/watt_zone), a 501(c)(3) non-profit supporting women in tech through community-building and mentoring. Jenn previously served on the board as Vice President and ran the organization's social media accounts, cultivating meet-up growth to over 100 members through social media outreach and in-person events.
 "
 publications:
     title: Public Speaking
