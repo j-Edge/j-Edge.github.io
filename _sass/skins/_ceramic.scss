@@ -1,10 +1,16 @@
+@use "sass:color";
+
 /* styles-6 variables */
-$theme-color: #4B6A78;
-$text-color: #3F4650;
-$text-color-secondary: #545E6C;
-$text-grey: #97AAC3;
-$divider: #e8e8e8;
-$lighter-grey: #ccc;
-$darker-grey: #666;
-$smoky-white: #f5f5f5;
-$heart: #fb866a;
+:root {
+  --theme-color: #4B6A78;
+  --theme-color-15darker: #{color.adjust(#4B6A78, $lightness: -15%)};
+  --theme-color-30darker: #{color.adjust(#4B6A78, $lightness: -30%)};
+  --text-color: #3F4650;
+  --text-color-secondary: #545E6C;
+  --text-grey: #97AAC3;
+  --divider: #e8e8e8;
+  --lighter-grey: #ccc;
+  --darker-grey: #666;
+  --smoky-white: #f5f5f5;
+  --heart: #fb866a;
+}
