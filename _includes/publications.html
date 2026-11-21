@@ -4,40 +4,40 @@
   <h2 class="section-title"><i class="fa fa-bullhorn"></i>{{ site.data.data.publications.title }}</h2>
   <figure class="speaker-image-wrapper"><img class="speaker-image" src="{{site.baseurl}}/assets/images/{{site.data.data.speaker-img}}" alt="Jenn speaking"/></figure>
   {% if site.data.data.publications.intro %}
-  <div class="intro"><p>{{ site.data.data.publications.intro }}</p></div>
+  <div class="intro"><p>{{ site.data.data.publications.intro | markdownify }}</p></div>
   {% endif %}
 
   {% for publication in site.data.data.publications.publications %}
-    <div class="item">
-      <div class="upper-row">
-        <div class="publication-title">
-          {% if publication.site %}<a href="{{publication.site}}">{% endif %}{{ publication.title }}{% if publication.site %}</a>{% endif %}
+    {% if publication.imageOnly != true %}
+      <div class="item">
+        <div class="upper-row">
+          <div class="publication-title">
+            {% if publication.site %}<a href="{{publication.site}}">{% endif %}{{ publication.title }}{% if publication.site %}</a>{% endif %}
+          </div>
         </div>
-        <div class="time">{{ publication.time }}</div>
-      </div>
-      <div class="publication-authors">{{ publication.authors }}</div>
-      {% if publication.embed %}
-      {{publication.embed}}
-      {% endif %}
-      {% if publication.videostill %}
-      <div class="videostill-wrapper">
-        {% if publication.videolink %}
-        <div class="videolink-wrapper">
-        <a type="button" class="videolink" href="{{publication.videolink}}" target="_blank"><i class="fa fa-youtube-play"></i>&nbsp;Watch Video</i></a>
+        <div class="publication-authors">{{ publication.authors }}</div>
+        {% if publication.embed %}
+        {{publication.embed}}
+        {% endif %}
+        {% if publication.videostill %}
+        <div class="videostill-wrapper">
+          {% if publication.videolink %}
+          <div class="videolink-wrapper">
+          <a type="button" class="videolink" href="{{publication.videolink}}" target="_blank"><i class="fa fa-youtube-play"></i>&nbsp;Watch Video</i></a>
+          </div>
+          {% endif %}
+          <figure><img class="videostill-image" src="{{site.baseurl}}/assets/images/{{ publication.videostill }}" alt="Jenn speaking at {{publication.title}}"/></figure>
         </div>
         {% endif %}
-        <figure><img class="videostill-image" src="{{site.baseurl}}/assets/images/{{ publication.videostill }}" alt="Jenn speaking at {{publication.title}}"/></figure>
-      </div>
-      {% endif %}
- 
-      <div class="publication-conference">{{ publication.conference | markdownify }}
-        {% if publication.slides %}
-        <div class="publication-slides"><a download href="{{publication.slides}}">Session Slides</a></div>
-        {% endif %}
-      </div>
-    </div><!--//item-->
-  {% endfor %}
   
+        <div class="publication-conference">{{ publication.conference | markdownify }}
+          {% if publication.slides %}
+          <div class="publication-slides"><a download href="{{publication.slides}}">Session Slides</a></div>
+          {% endif %}
+        </div>
+      </div><!--//item-->
+    {% endif %}
+  {% endfor %}
   <div class="publication-images row">
     {% for publication in site.data.data.publications.publications %}
       {% if publication.img %}

@@ -31,34 +31,29 @@ sidebar:
 
 career-profile: 
     title: Summary
-    text: "[Jenn Edge](https://linkedin.com/in/engineer-edge) is a proven technical leader with over 20 years of professional experience since achieving her BS in Computer Engineering. With over a decade of dedicated leadership, she is committed to driving [continuous improvement](https://www.infotechinc.com/blog/dont-stop-believing-the-journey-of-agile-self-improvement) within her teams. Jenn leverages systems-thinking analysis and embraces best practices to optimize team processes. Her forte lies in fostering effective cross-functional collaboration, building inclusive teams, and empowering the personal and professional growth of engineers and leaders alike.
+    text: "[Jenn Edge](https://linkedin.com/in/engineer-edge) is a senior engineering leader with 20 years of experience building and leading software engineering teams and organizations. With over a decade of dedicated leadership, she is committed to driving [continuous improvement](https://www.infotechinc.com/blog/dont-stop-believing-the-journey-of-agile-self-improvement) within her teams. Jenn leverages systems thinking and engineering best practices to optimize team processes. Her strength lies in fostering effective cross-functional collaboration, building inclusive teams, and empowering the personal and professional growth of engineers and leaders alike.
 <br/>
 <br/>
-Jenn currently manages 2 growing Claims Financials engineering teams at [GEICO](https://geico.com/careers), which is focused on delivering business value, tech modernization (monolith to Java microservices), and building &quot;touchless&quot; user experiences.
+Jenn currently leads the Claims Financials engineering organization at [GEICO](https://geico.com/careers), supporting the reliable disbursement of more than $30 billion in annual payments. Her work spans engineering modernization, cloud migration, operational resilience, and security. She has championed automation that reduced recurring engineering workload by 85%, strengthened site reliability practices, and introduced AI-assisted development to improve engineering efficiency. She is also helping bring AI-powered customer experiences to life, including a Sierra AI skill for answering payment-related questions. Along the way, she expanded the engineering organization from 7 to 15 engineers across two teams, building clear ownership and a high-trust culture grounded in psychological safety and professional development.
 <br/>
 <br/>
-She previously managed the [SyncSketch](https://syncsketch.com/) engineering team at [Unity Technologies](https://unity3d.com/), and directed the AASHTOWare engineering team at [Infotech](https://www.infotechinc.com/). She successfully scaled teams from startup to enterprise software standards, ensuring compliance with security, data protection, and accessibility requirements.
+She previously managed the [SyncSketch](https://syncsketch.com/) engineering team at [Unity Technologies](https://unity3d.com/), and directed the AASHTOWare engineering team at [Infotech](https://www.infotechinc.com/). She successfully scaled teams from startup to enterprise software standards, navigating technical modernization and requirements for security, data protection, and accessibility.
 <br/>
 <br/>
-Jenn has spoken at local meetups to international conferences, including the 2020 Virtual Grace Hopper Celebration with 39,000+ global attendees. Jenn has also been involved in community outreach including recruiting developers, speaking at conferences, and mentoring other women in tech. 
+Jenn's leadership philosophy blends technical depth with human-centered coaching. She partners with product and business teams to establish clarity, improve delivery, and align engineering priorities with business outcomes. She believes sustainable engineering excellence comes from empowering people, developing future leaders, and creating environments where teams can thrive.
 <br/>
 <br/>
-Jenn is also a member of the [.NET Foundation](https://www.dotnetfoundation.org/); she contributed open-source code to [improve the performance](https://goo.gl/EibZwc) of Entity Framework 6.2.
-<br/>
-<br/>
-In 2019, Usha Suryadevara, Elise Carmichael, Priya Rudradas, Sue Rocher, and Jenn Edge co-founded [We Advance Tech Together (WATT)](https://twitter.com/watt_zone), a 501(c)(3) non-profit supporting women in tech through community-building and mentoring. Jenn previously served on the board as Vice President and ran the organization's social media accounts, cultivating meet-up growth to over 100 members through social media outreach and in-person events.
+Jenn is a member of the [.NET Foundation](https://www.dotnetfoundation.org/) and contributed open-source code to [improve the performance](https://goo.gl/EibZwc) of Entity Framework 6.2.
 "
 publications:
-    title: Public Speaking
-    intro: "Jenn has spoken at many events, with local to global audiences."
+    title: Speaking & Community
+    intro: "<br/>Jenn has spoken at local meetups to international conferences, including the 2020 Virtual Grace Hopper Celebration with 39,000+ global attendees. Jenn has also been involved in community outreach including mentoring other leaders, recruiting, and speaking at conferences.
+<br/>
+<br/>
+In 2019, Jenn co-founded [We Advance Tech Together (WATT)](https://twitter.com/watt_zone), a 501(c)(3) nonprofit supporting women in technology through community-building and mentoring. She previously served as Vice President on the board, helping to grow the organization to more than 100 members through social media outreach and in-person events."
     
     publications:
 
-      - paper:
-        title: "2020 DevPulseCon"
-        site: https://www.devpulsecon.org/agenda-2020
-        time: October 8, 2020
-        authors: "Panel: Being the Solo Income Earner"
       - paper:
         title: "2020 Virtual Grace Hopper Celebration"
         site: https://ghc.anitab.org/
@@ -70,7 +65,7 @@ publications:
         site: https://resbaz.github.io/resbaz2019/gainesville/#schedule
         time: September 12, 2019
         authors: "Panel Discussion: Gainesville Coding Groups"
-        conference: "Represented We Advance Tech Together (WATT) in a panel discussion on local coding groups with Amy Kendig (R-Ladies Gainesville), Ben Toh (R-gators), and Matthew Collins (UF Carpentries Club). Topics included community building, teaching/mentorship, and the future of software development in other disciplines."
+        conference: "Topics included community building, teaching/mentorship, and the future of software development in other disciplines."
       - paper:
         title: "2019 Code on the Beach"
         site: https://twitter.com/CodeOnTheBeach/status/1151496283045138432
@@ -82,94 +77,29 @@ publications:
         #embed: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_jaaYylmfGQ?si=f2v0hjk7WKok8bT_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         slides: ./slides/CotB2019-AgileSelfImprovement.pdf
       - paper:
-        title: "2019 BarCampGNV"
-        site: https://twitter.com/BarCampGNV/status/1114562314114670592
-        time: April 6, 2019
-        authors: "Women in Tech"
-        conference: "Co-presented session discussing statistics of women in technology and tech leadership. Announced our new organization, We Advance Tech Together (WATT), an initiative to support women in tech."
-      - paper:
         title: "2019 Orlando CodeCamp"
         site: https://www.orlandocodecamp.com/
         time: March 30, 2019
         authors: Agile Self-Improvement
-        conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to keep up with changes in technology and step into new roles in leadership. How can we automate self-improvement and make real progress on our goals?<br>We’ll discuss the commonality between growth mindset and iterative development, feedback loops, and applying backlogs and minimum viable products to goal achievement. Attendees will learn about similarities between self-improvement and agile development and how to automate self-improvement through habits and environmental design using nudges from UX design."
         slides: https://github.com/onetug/OrlandoCodecamp2019Speakers/raw/master/JennEdge/AgileSelfImprovement.pdf
-      - paper:
-        title: "Empowering Women in Technology Startups"
-        site: https://twitter.com/UFCollaboratory/status/1050757465187454976
-        time: October 11, 2018
-        authors: "Sharing My GHC Experience"
-        conference: "Shared my Grace Hopper Celebration conference experience with approximately 50 EWITS participants."
-      - paper:
-        title: "2018 Grace Hopper Celebration"
-        time: September 26, 2018
-        authors: "Speed Mentoring on Product Design and Management"
-        conference: "Mentored attendees one-on-one in 6-minute sessions for 2.5 hours based on their interests and questions. Most conversations related to the transition from individual contributor to manager and how to effectively lead a team."
-      - paper:
-        title: "Moms Can: CODE Fall 2018 Virtual Summit"
-        site: http://summit.momscancode.com/speakers.html#Jenn
-        time: September 10-14, 2018
-        authors: Continuous Self-Improvement
-        conference: "**Abstract:** Development is failing over and over again at each step until you succeed, and learning how to do something just in time for everything to change. Continuous learning and growth is necessary to learn how to code, keep up with changes in technology, and step into new roles in leadership. Join me to look at the parallels between processes you may be learning or already familiar with in development and approaches to self-improvement proven to be successful in behavioral psychology. Attendees will learn how to improve goal focus with a sustainable pace and automate self-improvement using habits and environmental nudges."
-      - paper:
-        title: PACE Center for Girls
-        time: July 2018
-        authors: Microsoft Word Workshop
-        conference: Volunteered at a local girls' nonprofit to teach Microsoft Word for two 50-minute class periods, including giving a career-day presentation on software development.
-      - paper:
-        title: Intern Training
-        time: Summer 2018 and Spring 2019
-        authors: Goal-Setting Workshop
-        conference: Internal company 1-hour workshop to introduce interns to our division, speak about continuous self-improvement, and create goals for their internships.
       - paper:
         title: Gainesville BarCamp 2018
         site: http://gainesvillebarcamp.com/
         img: barcamp2018.jpg
+        imageOnly: true
         time: April 2018
         authors: Continuous Self-Improvement
-        conference: "**Abstract:** Do you want to make a lasting change, such as learning a new technology or becoming a better leader? Come learn how to develop a better you and nudge your dreams into reality. We'll explore ways to achieve goals and form habits."
       - paper:
         title: Grace Hopper Hackathon for Humanity 2017
         time: October 2017
         img: ghc2017.jpg
+        imageOnly: true
         authors: 
-        conference: Presented results for our Cloudera Team to all attendees at the end of a one-day hackathon.
+        conference: Presented results for our Cloudera hackathon team.
       - paper:
         title: coderGirls 2017
-        time: May 2017
         img: codergirls2017.jpg
-        authors: 
-        conference: Spoke with local high school coding club (coderGirls) about careers in software development.
-      - paper:
-        title: Developer Training
-        time: 2017
-        authors: 
-        conference: Led many workshop and seminar-style training sessions for developer on-boarding covering subjects varying from team culture to project architecture and how-to workshops.
-
-
-experiences:
-    title: Professional Experience
-    experiences:
-        - role: Assistant Director
-          time: April 2018 – Present
-          company: Infotech (Re-branded in September 2019) in Gainesville, FL
-          details: ['Manage web, mobile, and client/server development teams for contracted and company-owned products, delivered traditionally or as Software-as-a-Service, with team sizes from 2 to 25 developers.','Direct company-wide strategy as member of a 4-person cross-divisional technical advisory group. Guide departmental technical vision including long-term technical strategy for products and gain buy-in from internal and external stakeholders. Drive continuous team process improvements, with a focus on efficiency and quality.','Coach leads and developers to become more proactive and efficient and follow development best practices including test-driven development, pair programming, and collaborating with a team. Resource features for team knowledge sharing and growth opportunities. Steer hiring to build a diverse, high-performing team.','Research industry best practices and share internally and at conferences.','Member of teams that won the 2017 and 2018 Info Tech Hackathons.']
-
-#projects:
-#    title: Projects
-#    intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor"
-#    projects:
-#      - project:
-#        title: Velocity
-#        link: "#hook"
-#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-#skills:
-#    title: Skills &amp; Proficiency
-#    skills:
-#        - skill:
-#          name: Python & Django
-#          level: 98%
+        imageOnly: true
 
 footer: 
-    text: 'Design by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow noopener noreferrer">Xiaoying Riley</a>'
+    text: ''
