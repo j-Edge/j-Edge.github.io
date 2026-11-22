@@ -1,12 +1,9 @@
-#Update all the sections by editing the data.yml file inside _data folder.
+#Update sections by editing the data.yml file inside _data folder.
 
-baseurl: '' #change it according to your repository name
+baseurl: ''
 
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: berry # ceramic blue turquoise green berry orange ceramic
-
-# uncomment the next line, if you want the education section displayed in main instead of the sidebar
-#education_in_main: True
+# Style will be applied only after restarting the build or serve.
+theme_skin: berry # ceramic blue turquoise berry
 
 # Tracker
 analytics: G-P6KZ8VVN8J
@@ -22,6 +19,7 @@ compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
+safe: false
 
 # Development Settings
 port: 4000

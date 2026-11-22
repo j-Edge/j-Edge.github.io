@@ -24,6 +24,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      # NEW: Install ImageMagick on the Ubuntu runner
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
+      # NEW: Verify ImageMagick and WebP support
+      - name: Verify ImageMagick
+        run: |
+          magick -version
+          magick -list format | grep -i WEBP
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:

@@ -2,7 +2,11 @@
 <section class="section publications-section">
 
   <h2 class="section-title"><i class="fa fa-bullhorn"></i>{{ site.data.data.publications.title }}</h2>
-  <figure class="speaker-image-wrapper"><img class="speaker-image" src="{{site.baseurl}}/assets/images/{{site.data.data.speaker-img}}" alt="Jenn speaking"/></figure>
+  <figure class="speaker-image-wrapper">
+    {% assign pic_path = "assets/images/" | append: site.data.data.speaker-img %}
+    {% responsive_webp pic_path width="310,400" alt="Jenn speaking" class="speaker-image" %}
+    <!--img class="speaker-image" src="{{site.baseurl}}/assets/images/{{site.data.data.speaker-img}}" alt="Jenn speaking"/ 310,400-->
+  </figure>
   {% if site.data.data.publications.intro %}
   <div class="intro"><p>{{ site.data.data.publications.intro | markdownify }}</p></div>
   {% endif %}
@@ -26,7 +30,10 @@
           <a type="button" class="videolink" href="{{publication.videolink}}" target="_blank"><i class="fa fa-youtube-play"></i>&nbsp;Watch Video</i></a>
           </div>
           {% endif %}
-          <figure><img class="videostill-image" src="{{site.baseurl}}/assets/images/{{ publication.videostill }}" alt="Jenn speaking at {{publication.title}}"/></figure>
+          <figure>
+            {% assign pic_path = "assets/images/" | append: publication.videostill %}
+            {% responsive_webp pic_path width="320,630" alt="Jenn speaking at {{publication.title}}" class="videostill-image" %}
+          </figure>
         </div>
         {% endif %}
   
@@ -42,7 +49,10 @@
     {% for publication in site.data.data.publications.publications %}
       {% if publication.img %}
         <div class="col-md-4 publication-wrapper">
-          <figure><img class="publication-image" src="{{site.baseurl}}/assets/images/{{ publication.img }}" alt="Jenn speaking at {{publication.title}}"/><figcaption>{{publication.title}}</figcaption></figure>
+          <figure>
+            {% assign pic_path = "assets/images/" | append: publication.img %}
+            {% responsive_webp pic_path width="200,300" alt="Jenn speaking at {{publication.title}}" class="publication-image" %}
+            <figcaption>{{publication.title}}</figcaption></figure>
         </div>
       {% endif %}
     {% endfor %}
