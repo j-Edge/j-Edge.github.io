@@ -24,13 +24,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      # NEW: Install ImageMagick on the Ubuntu runner
       - name: Install ImageMagick
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
 
-      # NEW: Verify ImageMagick and WebP support
       - name: Verify ImageMagick
         run: |
           magick -version
@@ -45,8 +43,13 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
+      - name: Verify generated WebP files
+        run: |
+          find _site/assets/generated -type f -name "*.webp"
+
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
+
         with:
           path: ./_site
 
@@ -61,4 +64,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
